@@ -1,0 +1,297 @@
+	  @charset "UTF-8";
+			  
+				/* Parallax scrolling */
+  
+				  body, html {
+					  height: 100%;
+					  margin: 0;
+					  
+				  }
+				  				  
+				  header{
+					  background-image:url("img/sunset-4-new.jpg");
+					  min-height:100%;
+					  
+				  }
+				  
+				  header, section{
+				  min-height:100%;
+				  
+				  }
+				  
+				  header{
+					  position: relative;
+					  opacity: 0.9;
+					  background-attachment: fixed;
+					  background-position: center;
+					  background-repeat: no-repeat;
+					  background-size: cover;
+					  
+				  }
+				  
+				  #dsection {
+					  background-image:url("img/sea-rock.jpg");
+					  min-height:100%;
+					  
+				  }
+				  
+				  #dsection {
+					  position: relative;
+					  background-attachment: fixed;
+					  background-position: center;
+					  background-repeat: no-repeat;
+					  background-size: cover;
+					  
+				  }
+				  
+			  /* Other effects */
+		  
+				  body{
+					  margin-left:0px;
+					  margin-right:0px;
+					  
+				  }
+				  
+				  h1{
+					  color:#FC6F5B;
+					  font-family: 'Belleza', sans-serif;	
+					  font-size:55px;				
+					  margin-top:60px;
+					  text-align:center;
+					  padding-bottom:-100px;
+					  
+				  }
+		  
+				  h2{
+					  color:#515C5C;
+					  font-family: 'Cinzel Decorative', cursive;
+					  font-weight:500;
+					  font-size:30px;
+					  text-align:center;
+					  font-size: 12px;
+					  margin-top: -2px;
+					  
+				  }
+				  
+				  h3{
+					  margin-top:10px;
+					  color:#FC6F5B;
+					  font-family:'Belleza', cursive;
+					  font-size:50px;
+					  font-weight:lighter;
+					  text-align:center;
+					  margin-bottom:50px;
+  
+				  }
+				  
+				  p{
+					  font-size:25px;
+					  font-weight:300;
+					  margin-bottom: 20px;
+					  text-align:justify;
+					  
+				  }
+					
+				p#id {
+					font-size:100px;
+				}
+				
+				 .barremenu {
+					  width:100%;
+					  height: 50px;
+					  margin-top: -20px;
+					  margin-bottom:20px;
+					  padding-bottom: 175px;
+					  background-color:white;
+					  
+				  }
+				  
+				 .navbar-light .navbar-nav .nav-link {
+    color:#515C5C;
+}
+
+				 .navbar-light .navbar-nav .nav-link:hover {
+    color:#FC6F5B;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:#515C5C;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover {
+    color:#FC6F5B;
+}
+				
+
+				  nav ul{
+					  padding:Opx;
+					  list-style-type:none;
+					  float: center;
+					  text-align:center;
+					  margin top:200px;
+					  font-size:20px;
+					  background-color:white;
+			  
+				  }
+				  
+				  nav li {
+					  display:inline;
+					  color:#515C5C;
+					  text-align:center;
+					  font-family:'Mitr', sans-serif;
+					  font-weight:100;
+					  margin-left:55px;
+					  text-decoration:none;	
+				  }
+				  
+				  a:hover {
+					  font-size:170%;
+					  
+				  }
+				  
+				  .bg-light {
+   						flex-direction: column-reverse;
+					}
+					  
+				  .section{
+					  height:100%;
+					  
+				  }
+				  
+				  #qui-sommes-nous{
+					  float:left;
+					  padding-right:50px;
+					  text-align:center;
+  
+				  }
+				  
+				  .plaintxt{
+					  color:#515C5C;
+					  font-family: 'Belleza', sans-serif;		
+					  font-size:12px;	
+							  
+				  }
+				  
+				  #txt-desti{
+					  font-size:20px;
+					  color:#515C5C;
+					  font-family: 'Belleza', sans-serif;	
+					  text-align:center;	
+
+				  }
+				  
+				  /* Overlay effect */
+				  .overlay-container {
+   						position:relative;
+				  }
+  
+ 				 .overlay {
+					   position: absolute;
+					   top: 0;
+					   left:0;
+					   width: 100%;
+					   height: 100%;
+					   padding-top: 23%;
+					   text-align: center;
+					   display:none;
+					   background-color:white;
+					   background-color:white;
+					   opacity: 0.7;
+ 				 }
+  
+ 				 .overlay-container:hover .overlay{
+   						display:block;
+  				}
+				
+				
+				  #ds-desti{
+					  border:double;
+				  }
+				  
+				  .important-info{
+					  color:#FC6F5B;
+					  font-size: 25px;	
+				  }
+				  
+				  #h-photo {
+					  width:100%;
+					  height: auto;
+					  margin-top:30px;
+					  margin-bottom: 70px;
+					  margin-left:Opx;
+					  margin-right:0x;
+					  padding-left:0px;
+					  
+				  }
+				  
+				  .line{
+					  background-color:#FC6F5B;
+					  margin-bottom:unset;
+	  
+				  }
+				  
+				  #nos-offres{
+					  text-align:center;
+					  
+				  }
+				  
+				  .quote-marks{
+					  opacity:0.7;
+				  }
+				  				  
+				  .footer{
+					  background-color:#515C5C;
+  
+				  }
+				  
+				  .rs{
+					  margin-right:20px;
+					  text-align:right;
+					  
+				  }
+				  
+				  #ds-desti{
+					  background-color: rgba(255, 255, 255, 0.6);
+					  margin-top:30%;
+					  border-color:#FC6F5B;
+					  
+				  }
+				  
+				  .bg-light {
+					  background-color: rgba(255, 255, 255, 1)!important;
+					  
+				  }
+				  
+				  .center{
+					  text-align:center;
+					  
+				  }
+				  
+				  .title-desti{
+					  text-align:center;
+					  text-decoration:underline;					  
+				  }
+				  
+				  
+				  .text-desti{
+					  padding-top:18%;
+					  font-family:40%;
+					  text-align:center;
+					  color:#333333;
+					  opacity:1;
+				  }
+				  
+				  .offres{
+					  text-align:center;
+					  margin-bottom:20%;
+					  
+				  }
+				  
+				  P#footer{
+					  margin-bottom:0px;
+					  
+				  }
+	  
+  
+			   
